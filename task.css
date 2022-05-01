@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "gilroy";
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main #nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#main #nav #l{
+    margin-left: 120px;
+    display: flex;
+}
+#main #nav #l h1{
+    font-size: 35px;
+}
+#main #nav #l1{
+    margin-top: 5px;
+}
+#main #nav #b{
+    margin-top: 25px;
+    margin-right: 100px;
+}
+#main #nav #b a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+#main #nav #r i{
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-right: 70px;
+    padding: 5px;
+    font-size: 25px;
+}
+#main #hero {
+    overflow: hidden;
+    font-family: "ogg";
+    font-weight: 200;
+}
+#main #hero h1{
+    position: absolute;
+    z-index: 9;
+    font-size: 140px;
+    font-weight: 200;
+    top: 52%;
+    left: 14%;
+    line-height: 0.8;
+}
+#main #hero #ab{
+    position: absolute;
+    top: 88%;
+    left: 23%;
+}
+#main #photo img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 40%;
+    background-size: cover;
+    background-position: center;
+}
+#main #photo1 img{
+    position: absolute;
+    top: 20%;
+    left: 9%;
+    height: 50%;
+    
+}
+#circle{
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+#circle2{
+    position:absolute;
+    top: 20%;
+    right: 30%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+#main #photo2 img{
+    position: absolute;
+    bottom: -24%;
+    left: 20%;
+    width: 20%;
+}
